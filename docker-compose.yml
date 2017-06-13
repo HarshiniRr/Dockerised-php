@@ -1,13 +1,14 @@
 version: '2'
 
 services:
-    web:
+    Envroment:
         image: nginx:latest
         ports:
             - "8080:80"
         volumes:
             - ./code:/code
-            - ./site.conf:/etc/nginx/conf.d/default.conf
+            - ./nginx/site.conf:/etc/nginx/conf.d/default.conf
+            - ./nginx/logs/:/var/log/nginx
             - ./hosts/hosts:/etc/hosts
         networks:
             - code-network
@@ -15,6 +16,7 @@ services:
         image: php:7-fpm
         volumes:
             - ./code:/code
+            - ./php/php.ini:/usr/local/etc/php/php.ini
         networks:
             - code-network
     mysql:
