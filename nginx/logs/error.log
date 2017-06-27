@@ -1,0 +1,1 @@
+2017/06/27 18:17:04 [error] 7#7: *3 open() "/code/cakephp/webroot/debug_kit/toolbar/436589b5-d3a8-4eed-af00-146e768dd743" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /debug_kit/toolbar/436589b5-d3a8-4eed-af00-146e768dd743 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"

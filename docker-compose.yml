@@ -13,10 +13,11 @@ services:
         networks:
             - code-network
     php:
-        image: php:7-fpm
+        image: zolweb/php7:1.0
         volumes:
             - ./code:/code
-            - ./php/php.ini:/usr/local/etc/php/php.ini
+            - ./php/mods-available:/usr/local/etc/php/conf.d
+            - ./php/php.ini:/conf/php.ini
         networks:
             - code-network
     mysql:
