@@ -1,2 +1,0 @@
-172.19.0.1 - - [27/Jun/2017:18:17:04 +0000] "GET / HTTP/1.1" 200 8350 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"
-172.19.0.1 - - [27/Jun/2017:18:17:04 +0000] "GET /debug_kit/toolbar/436589b5-d3a8-4eed-af00-146e768dd743 HTTP/1.1" 404 571 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"
