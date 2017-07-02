@@ -42,8 +42,8 @@ services:
        image: mariadb
        environment:
             MYSQL_DATABASE: homestead
-            MYSQL_USER: homestead
-            MYSQL_PASSWORD: secret
+            MYSQL_USER: dbuser
+            MYSQL_PASSWORD: dbpassword
             MYSQL_ROOT_PASSWORD: root
 networks:
     code-network:
