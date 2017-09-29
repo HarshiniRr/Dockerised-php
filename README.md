@@ -1,4 +1,4 @@
-The Docker setup for PHP applications using PHP7-FPM and Nginx and Mysql and PhpMyAdmin.
+The Docker setup for PHP applications using PHP7-FPM , Nginx , Mysql , Redis and PhpMyAdmin.
 Also you can maintaining or install your project cakephp on this environment without specify config.
 
 ## Instructions
